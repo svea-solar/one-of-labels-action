@@ -1,0 +1,25 @@
+name: 'One of Labels Action'
+description: 'Action to get one of a predefined list of labels from an array.'
+
+branding:
+  icon: 'sun'
+  color: 'white'
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+
+inputs:
+  group:
+    description: 'Comma separated list comprising the group of labels.'
+    required: true
+  labels:
+    description: 'Comma separated list comprising the PRs labels.'
+    required: true
+  fallback:
+    description: 'A fallback value, for if the intersection yields no results.'
+    required: true
+
+outputs:
+  label:
+    description: 'The label we found.'

@@ -1,2 +1,7 @@
-# one-of-labels-action
-Action to get one of a predefined list of labels from an array.
+# One of Labels Action
+
+## Build
+
+1. `npm i`
+2. `npm i -g @vercel/ncc`
+3. `ncc build index.js` - `dist/index.js` is regenerated.
