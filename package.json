@@ -9,6 +9,6 @@
   "author": "Svea Solar",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.2.4"
+    "@actions/core": "^1.2.6"
   }
 }
